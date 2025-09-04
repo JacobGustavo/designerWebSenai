@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin: 20px 0 0;
+    font-size: 1.1em;
+}
+
+article{
+    width: 80%;
+    align-content: center;
+}
+
+p{
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+.color1 {
+    background: tomato;   
+}
+
+.color2 {
+    background: orange;   
+}
+
+.color3 {
+    background: dodgerblue;   
+}
+
+.color4 {
+    background: mediumseagreen;   
+}
+
+.color5 {
+    background: gray;   
+}
+
+.color6 {
+    background: slateblue;   
+}
+
+.color7 {
+    background: violet;   
+}
+
+.color8 {
+    background: lightblue;   
+}
+

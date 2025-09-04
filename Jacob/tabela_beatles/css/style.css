@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 70);
+}
+
+
+table {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+caption{
+    margin: 5px auto;
+    text-align: left;
+}
+
+footer{
+    width: 80%;
+    margin: 5px auto;
+    font-size: 0.9em;
+}
+
+
+img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+td{
+    border: 1px solid black;
+}
+

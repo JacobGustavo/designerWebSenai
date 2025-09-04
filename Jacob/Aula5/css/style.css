@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+html{
+    background-color: rgb(231, 225, 245);
+}
+
+body{
+    background-color: rgb(5, 149, 238);
+    font-size: 100%;
+}
+
+header, nav, article, section, aside, footer {
+    background-color: rgba(181, 181, 183, 0.486);
+    margin: 10px;
+    width: 35%;
+    text-align: center;
+    color: aliceblue;
+}
+header, nav, footer{
+    width: 98%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer{
+    clear: both;
+}
+
+p:hover{
+    color: rgb(27, 2, 149);
+    font-size: 1.1em;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(1, 39, 1);
+    transition: color 0.5s ease;
+    margin: 2.5%;
+
+}
+
+a:hover{
+    color: rgb(5, 74, 134);
+    font-size: 1.1em;
+}

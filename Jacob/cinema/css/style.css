@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, p, article{
+    padding: 10px;
+}
+h1 {
+    text-align: center;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.cidade_link {
+    color: seagreen;
+}
+
+.cidade_link:hover{
+    color: rgb(34, 202, 107);
+    font-size: 1.6em;
+}
+
+.voltar {
+    color: darkblue;
+}
+
+.voltar:hover{
+    color: rgb(89, 27, 177);
+    font-size: 1.01em;
+}
+
+p{
+    font-size: 20px;
+}
+
+.hoje {
+    color: darkred;
+}
+
+.amanha {
+    color: darkblue;
+}

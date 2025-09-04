@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 250px;
+}
+
+ul{
+    background: green;
+}
+
+ul li {
+    text-align: center;
+    background: white;
+    list-style: none;
+    padding: 10px;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+ul li:hover {
+    background: green;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
